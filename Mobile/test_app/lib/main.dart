@@ -3,7 +3,7 @@ import 'package:test_app/HomePage.dart';
 
 void main() {
   runApp(
-    MaterialApp(
+    const MaterialApp(
       home: Homepage(),
     ),
   );

@@ -7,9 +7,9 @@ class Homepage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Welcome"),
+        title: const Text("Welcome"),
         backgroundColor: Colors.lightBlueAccent,
-        actions: [Icon(Icons.search)],
+        actions: const [Icon(Icons.search)],
       ),
       body: Column(
         children: [
@@ -23,7 +23,7 @@ class Homepage extends StatelessWidget {
                   children: [
                     Image.network(
                         "https://gratisography.com/wp-content/uploads/2024/03/gratisography-vr-glasses-1170x780.jpg"),
-                    Text("100")
+                    const Text("100")
                   ],
                 ),
               ),
@@ -44,7 +44,7 @@ class Homepage extends StatelessWidget {
               ),
             ],
           ),
-          Text("Kuwani Box larabo in labuxiyo"),
+          const Text("Kuwani Box larabo in labuxiyo"),
           Image.network(
               "https://gratisography.com/wp-content/uploads/2024/03/gratisography-vr-glasses-1170x780.jpg")
         ],

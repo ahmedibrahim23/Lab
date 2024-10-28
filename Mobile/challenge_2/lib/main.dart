@@ -1,9 +1,8 @@
 import 'package:challenge_2/detail.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
 void main() {
-  runApp(MaterialApp(
+  runApp(const MaterialApp(
     debugShowCheckedModeBanner: false,
     color: Colors.blue,
     home: Detail(),
